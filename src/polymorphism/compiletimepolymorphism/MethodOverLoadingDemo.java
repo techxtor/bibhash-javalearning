@@ -1,4 +1,4 @@
-package methodOverloading;
+package polymorphism.compiletimepolymorphism;
 
 class Alpha {
     public int add(int i, int j) {
