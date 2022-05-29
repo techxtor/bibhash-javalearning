@@ -14,6 +14,12 @@ abstract class Calculator {
     public abstract int div(int x, int y);
 }
 
+abstract class Hello {
+    public void display(){
+        System.out.println("hello");
+    }
+}
+
 class Casio extends Calculator {
 
     @Override
@@ -42,6 +48,8 @@ public class AbstractClassDemo {
         int sub = casio.sub(20, 10);
         int mul = casio.mul(20, 10);
         int div = casio.div(20, 10);
+
+//        Hello hello = new Hello();
     }
 }
 
@@ -49,3 +57,4 @@ public class AbstractClassDemo {
 // only abstract class can have abstract member function
 // abstract class can have both - abstract function as well as non-abstract function
 // when a class extends abstract class -> it must implement all its abstract member function
+// abstract class can not be instanceiated
