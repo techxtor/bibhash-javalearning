@@ -10,3 +10,5 @@ public class FinalVariable {
 //       finalClass.NUM = 20;
     }
 }
+
+// final = constant
